@@ -7,8 +7,8 @@ class RootViewController < UIViewController
 		i = 0
 		FontAwesome.iconDef.each do |key, value|
 			label = UILabel.alloc.initWithFrame([[10, 20 + i*200],[200, 200]])
-			label.text = (value).chr(Encoding::UTF_8)
-			label.font = UIFont.fontWithName("FontAwesome", size: 200.0)
+			label.text = FontAwesome.icon(key)
+			label.font = FontAwesome.fontWithSize(200.0)
 			self.view.addSubview(label)
 			i = i + 1
 		end

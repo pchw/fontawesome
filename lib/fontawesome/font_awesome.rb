@@ -226,4 +226,8 @@ class FontAwesome
             return ''
         end
     end
+
+    def FontAwesome.fontWithSize(size)
+        return UIFont.fontWithName("FontAwesome", size:size)
+    end
 end
