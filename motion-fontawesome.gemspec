@@ -7,8 +7,8 @@ Gem::Specification.new do |gem|
 
   gem.authors = ['Hiroshi HORIKI(@pchw)']
   gem.email   = ['bump.luv@gmail.com']
-  gem.summary     = "ease to use Font Awesome via RubyMotion"
-  gem.description = "ease to use Font Awesome via RubyMotion"
+  gem.summary     = "easy to use Font Awesome via RubyMotion"
+  gem.description = "easy to use Font Awesome via RubyMotion"
   gem.homepage    = 'https://github.com/pchw/fontawesome'
 
   gem.files        = [

@@ -1,7 +1,7 @@
 motion-fontawesome
 ===========
 
-gems for ease to use Font Awesome iconic font via RubyMotion.
+gems for easy to use Font Awesome iconic font via RubyMotion.
 
 
 How to use
