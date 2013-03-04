@@ -5,6 +5,8 @@ class FontAwesome
     def FontAwesome.iconDef
         @iconDef ||= begin
             {
+
+
                 "glass" => 0xf000,
                 "music" => 0xf001,
                 "search" => 0xf002,
@@ -214,7 +216,47 @@ class FontAwesome
                 "sitemap" => 0xf0e8,
                 "umbrella" => 0xf0e9,
                 "paste" => 0xf0ea,
-                "user-md" => 0xf200,
+                "lightbulb" => 0xf0eb,
+                "exchange" => 0xf0ec,
+                "cloud-download" => 0xf0ed,
+                "cloud-upload" => 0xf0ee,
+                "user-md" => 0xf0f0,
+                "stethoscope" => 0xf0f1,
+                "suitcase" => 0xf0f2,
+                "bell-alt" => 0xf0f3,
+                "coffee" => 0xf0f4,
+                "food" => 0xf0f5,
+                "file-alt" => 0xf0f6,
+                "building" => 0xf0f7,
+                "hospital" => 0xf0f8,
+                "ambulance" => 0xf0f9,
+                "medkit" => 0xf0fa,
+                "fighter-jet" => 0xf0fb,
+                "beer" => 0xf0fc,
+                "h-sign" => 0xf0fd,
+                "plus-sign-alt" => 0xf0fe,
+                "double-angle-left" => 0xf100,
+                "double-angle-right" => 0xf101,
+                "double-angle-up" => 0xf102,
+                "double-angle-down" => 0xf103,
+                "angle-left" => 0xf104,
+                "angle-right" => 0xf105,
+                "angle-up" => 0xf106,
+                "angle-down" => 0xf107,
+                "desktop" => 0xf108,
+                "laptop" => 0xf109,
+                "tablet" => 0xf10a,
+                "mobile-phone" => 0xf10b,
+                "circle-blank" => 0xf10c,
+                "quote-left" => 0xf10d,
+                "quote-right" => 0xf10e,
+                "spinner" => 0xf110,
+                "circle" => 0xf111,
+                "reply" => 0xf112,
+                "github-alt" => 0xf113,
+                "folder-close-alt" => 0xf114,
+                "folder-open-alt" => 0xf115,
+
             };
         end
     end
